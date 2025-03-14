@@ -1,0 +1,34 @@
+# Normality Test and Histogram Analysis
+
+This project performs a **Shapiro-Wilk test** to check if a given dataset follows a normal distribution. It also visualizes the data distribution with a **histogram** and overlays a **normal distribution curve**.
+
+## Table of Contents
+- [Description](#description)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+## Description
+
+This script helps in performing a **normality test** using the **Shapiro-Wilk test** and visualizing the data distribution. It is particularly useful for statistical analysis where it is important to check whether data follow a normal distribution. The project includes:
+- **Shapiro-Wilk normality test** to check normality.
+- A **histogram** to visualize the data distribution.
+- A **normal distribution curve** overlay to compare the data distribution to a theoretical normal distribution.
+
+## Prerequisites
+
+Before running the script, make sure you have the following Python libraries installed:
+
+- `pandas`: For handling data.
+- `scipy`: For statistical tests (Shapiro-Wilk test).
+- `matplotlib`: For plotting the histogram and normal distribution curve.
+
+To install the required libraries, run:
+
+```bash
+pip install pandas scipy matplotlib
+
+++++++++++
+Ahmed S.Jabbar
+++++++++++
